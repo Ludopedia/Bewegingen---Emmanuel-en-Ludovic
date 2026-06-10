@@ -152,39 +152,31 @@ Op het mondelinge examen kiezen we vier van de onderstaande hoofdvragen, elk goe
 
 1\. waarvoor gebruikt de industrie het mechanisme of de nok? Hoe zou je het ontwerp aanpassen (geometrische parameers, positie van de motor, verandering van de timing in één cyclus,...) voor een andere toepassing? 
 
+nok: kurken van portoflessen (geen andere toepassing gevonden).
 
-
-\\//
+mechanisme: hoogwerker, chirurgische lamp (veer ipv zuiger, wrijving verhogen).
 
 
 
 2\. hoe optimiseer je het ontwerp voor precisie? voor energieverbruik? voor krachtgeneratie?
 
+nok: precisie -> geen loshechting, hogeregraadspolynoom. energieverbruik -> zo min mogelijk veerkracht, lage drukhoek. krachtengeneratie -> zo min mogelijk veerkracht.
 
 
 
-
-
+mechanisme: precisie \& krachten -> zuiger verplaatsen. energie -> zo efficient mogelijke gewrichten?
 
 3\. vliegwiel: welke afwegingen ("trade offs") heb je gemaakt, en waarom?
 
+vliegwiel heeft zin (piek-koppel >> gemiddeld koppel)
 
+schijfvliegwiel ipv velg (massa geen probleem, goedkoper)
 
-
-
-
+R = 300 mm (vrij arbitrair)
 
 4\. keuze van bewegings-traject: welke afwegingen ("trade offs") heb je gemaakt, en waarom?
 
-
-
-
-
-
-
-5\. hoe gebruik je de analyse van de frequentie-inhoud van je ontwerp? 
-
-
+nok: 5de graadspolynoom -> laagste versnelling voor eindige jerk (fundamentele wet van nokkenontwerp) + lagere productiekosten dat eindige Djerk
 
 
 
@@ -200,7 +192,7 @@ Op het mondelinge examen kiezen we vier van de onderstaande hoofdvragen, elk goe
 
 7\. wat zijn de onbalans-eigenschappen van je onwerp? Vormen die een probleem?
 
-
+(nok: < 1 N)
 
 
 
@@ -208,7 +200,7 @@ Op het mondelinge examen kiezen we vier van de onderstaande hoofdvragen, elk goe
 
 8\. wat zijn de relatieve invloeden van inertie, wrijving en stijfheid op je toepassing?
 
-\\//
+nok: inertie \& (veer)stijfheid -> zie krachtengrafiek
 
 \\//
 
@@ -216,15 +208,13 @@ Op het mondelinge examen kiezen we vier van de onderstaande hoofdvragen, elk goe
 
 9\. hoe verandert je ontwerp als je verschillende kopies van je mechanisme in parallel laat aandrijven door dezelfde motor.
 
-
-
-\\//
+nok: reeds 2x in fase -> 2x met 180° verschil kan zin hebben om koppel te balanceren, maar wordt mechanisch complexer.
 
 \\//
 
 10\. verander een parameter in je ontwerp, voorspel wat het effect zal zijn, en bereken de bijhorende numerieke analyse. 
 
-
+nok: m, n, k ...
 
 
 
@@ -232,5 +222,5 @@ Op het mondelinge examen kiezen we vier van de onderstaande hoofdvragen, elk goe
 
 We stellen  altijd de volgende bijvraag: hoeveel kost de motor voor je machine, en hoeveel kost het energieverbruik?
 
-\\//
+Motor kost €327, energieverbruik \~ € 40 over 5 jaar nonstop.
 
